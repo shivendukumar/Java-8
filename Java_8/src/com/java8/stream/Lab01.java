@@ -9,6 +9,8 @@ public class Lab01 {
 	public static void main(String[] args) {
 		
 		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9);
+		System.out.println(list);
+		System.out.println("=============================");
 		list.forEach(val -> System.out.println(val));
 		System.out.println("-----------------------------");
 		list.stream().filter(val -> val%2 ==0).forEach(res -> System.out.println(res));
@@ -20,6 +22,7 @@ public class Lab01 {
 		list.stream().filter(val -> val%2 ==0).forEach(res -> System.out.println(res*res));
 		System.out.println("-----------------------------");
 		list.stream().filter(val -> val%2 !=0).forEach(res -> System.out.println(res*res));
-		
+		System.out.println("=============================");
+		System.out.println(list);
 	}
 }
