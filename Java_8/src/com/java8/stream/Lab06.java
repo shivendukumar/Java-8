@@ -21,6 +21,6 @@ public class Lab06 {
 		list.stream()
 			.skip(6).limit(8)
 			.forEach(System.out::println);
-		
+		System.out.println(" *** DONE *** ");
 	}
 }
