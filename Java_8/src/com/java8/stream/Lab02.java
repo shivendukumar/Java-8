@@ -21,6 +21,5 @@ public class Lab02 {
 		System.out.println("-------------");
 		Stream<Integer> mystream3 = numlist.stream(); //1
 		mystream3.forEach(System.out::println); //3
-		
 	}
 }
