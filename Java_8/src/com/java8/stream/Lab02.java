@@ -20,6 +20,7 @@ public class Lab02 {
 		mystream2.forEach(System.out::println);
 		System.out.println("-------------");
 		Stream<Integer> mystream3 = numlist.stream(); //1
-		mystream3.forEach(System.out::println); //3
+		mystream3.forEach(System.out::println); //3 
+		System.out.println(" ***  DONE  *** ");
 	}
 }
