@@ -13,5 +13,10 @@ public class Lab06 {
 		list.stream()
 			.skip(6).limit(8)
 			.forEach(System.out::println);
+		/*
+		 * skip is used to skip a certain number of elements at the beginning of the
+		 * stream, allowing you to start processing from a specified position further
+		 * along in the stream.
+		 */
 	}
 }
